@@ -1,0 +1,100 @@
+ [class*="col-"] {
+   width: 100%;
+ }
+  @media only screen and (min-width: 768px) {
+  [class*="col-"]  {
+    float: left;
+    padding: 10px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.header {
+  height: auto;
+  background-color: olive;
+  padding: 10px;
+}
+#muziekschool {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+#koptekst {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+#navigatie {
+  height: auto;
+  background-color: green;
+}
+ul a  {
+color: white;
+text-decoration: none;
+}
+li {
+  display: inline-block;
+  height: auto;
+  width: 100px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+li:hover {
+  background-color: darkolivegreen;
+  border-style: none;
+}
+.linkervak {
+  height: 750px;
+  padding: 5px;
+  color: black;
+  background-color: yellowgreen;
+}
+.rechtervak {
+  height: 650px;
+  padding: 5px;
+  color: black;
+}
+#middentekst {
+  color: olive;
+}
+#hanjes {
+  color: olive;
+}
+#fotohannah {
+  float: right;
+  height: 45%;
+  width: 25%;
+  margin-right: 5px;
+  padding: 5px;
+}
+#fotojesse {
+  float: left;
+  height: 35%;
+  width: 25%;
+  margin-right: 5px;
+  padding: 5px;
+}
+textarea {
+  height: 100px;
+  padding: 5px;
+}
+.footer {
+  height: auto;
+  padding: 10px;
+  color: white;
+  background-color: olive;
+  text-align: center;
+}
